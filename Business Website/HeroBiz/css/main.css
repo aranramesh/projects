@@ -1,0 +1,159 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+  
+}
+.header-flex{
+    padding: 10px 15px;
+    font-size: 30px;
+
+}
+.header-flex h1{
+    color: #485664;
+    font-size: 32px;
+    font-weight: 300;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    background-color: #fff;
+    
+}
+.nav-sec{
+    display: flex;
+    justify-content: center;
+    margin-top: -44px;
+    margin-left: 90px;
+    
+}
+.navi .ul{
+    float:center;
+    list-style-type: lower-roman;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+   
+    
+
+}
+ul li a{
+    text-decoration: solid;
+    color: #5c768d;
+    padding: 5px 20px; 
+    border: 1px solid #fff;
+    transition: 0.6s;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize ;
+    font:  bold;
+}
+ul li ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header-flex span{
+    color: #0EA2BD;
+
+}
+.nav-sec button{
+    background:#32B0C7;
+    height: 40px;
+    width: 140px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    margin-left: 40px;
+}
+.banner img{
+    width: 511px;
+    position: relative;
+    left: 390px;
+    top: 80px;
+    
+    
+animation: uptodown 0.8s linear forwards infinite;
+    
+  
+}
+/* @keyframes uptodown{
+    from{
+       
+        transform: translateY(-20px) ;
+    }
+    to{
+     
+        transform: translateX(20px);
+    }
+}  */
+
+.ban{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.ban h1{
+    font-size: 45px;
+    font-weight: 300;
+    color: #485664;
+    margin-left: -250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    
+}
+.ban span{
+    font-size: 45px;
+    font-weight: 300;
+    position: relative;
+    top: -51px;
+    left: 90px;
+    color: #32B0C7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ban p{
+    color: #979FA7;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -35px;
+}
+.play{
+    padding: 10px ;
+    text-align: center;
+ 
+}
+.play button{
+    padding: 10px 20px;
+    width: 140px;
+    height: 40px;
+    background-color: #0EA2BD;
+    border: none;
+    border-radius: 5px ;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px ;
+    margin-left: -0px;
+
+
+}
+.play {
+     font-size: 27px;
+     padding-left: -10px;
+     color:#485664 ;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.play i{
+    padding-left: 20px;
+    color: #0EA2BD;
+    
+}
+.lorem{
+    position: relative;
+    top: 280px;
+    
+}
+
+
