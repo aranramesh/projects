@@ -5,7 +5,7 @@
 
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family:'krub',sans-serif;
+    font-family:"krub",sans-serif;
 }
 .container{
     width: 1175px;
@@ -124,20 +124,68 @@ ul li{
 }
 .specs{
     background-color: #466393;
-    height: 300px;
+    height: 493px;
 }
 .spec-flex{
     display: flex;
 }
 .spec-1{
     width: 40%;
+    text-align: start;
+    position: relative;
+    top: 135px;
+
+}
+.spec-1 p{
+    font-family: 'Poppins';
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 17px;
+}
+.spec-1 button{
+    height: 40px;
+    width: 124px;
+    border-radius: 50px;
+    border: none;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-size: 15px;
 }
 .spec-2{
     width: 30%;
     padding-right: 16px;
+    text-align: start;
+    position: relative;
+    top: 106px;
+
+}
+.spec-icon{
+    font-size: 33px;
+    color: lightgray;
+}
+.spec-2 h5{
+    color: #fff;
+    font-size: 21px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.spec-2 p{
+    color: #fff;
+    padding-bottom: 25px;
+    font-size: 15px;
+    font-family: sans-serif;
 }
 .spec-1 h3{
     color: #fff;
     font-size: 34px;
     font-weight: 600;
+   
+}
+.client-icons{
+    display: flex;
+
+}
+.client-icons img{
+    width: 16.16%;
+    
 }
