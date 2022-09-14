@@ -69,14 +69,15 @@ ul li ul{
     color: #fff;
     margin-left: 40px;
 }
+.banner{
+    height:auto;
+}
 .banner img{
     width: 511px;
     position: relative;
     left: 390px;
-    top: 80px;
-    
-    
-animation: uptodown 0.8s linear forwards infinite;
+    top: 80px;  
+    animation: uptodown 0.8s linear forwards infinite;
     
   
 }
@@ -93,8 +94,8 @@ animation: uptodown 0.8s linear forwards infinite;
 
 .ban{
     text-align: center;
-    position: relative;
-    top: 150px;
+    
+
 }
 .ban h1{
     font-size: 45px;
@@ -108,7 +109,7 @@ animation: uptodown 0.8s linear forwards infinite;
 .ban span{
     font-size: 45px;
     font-weight: 300;
-    position: relative;
+
     top: -51px;
     left: 90px;
     color: #32B0C7;
@@ -118,7 +119,6 @@ animation: uptodown 0.8s linear forwards infinite;
     color: #979FA7;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: -35px;
 }
 .play{
     padding: 10px ;
@@ -153,7 +153,12 @@ animation: uptodown 0.8s linear forwards infinite;
 .lorem{
     position: relative;
     top: 280px;
+  
     
+}
+.lorem.ipsum{
+    display: flex;
+  
 }
 
 
