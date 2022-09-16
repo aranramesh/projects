@@ -324,6 +324,11 @@ hr{
     padding-left: 10px;
     padding-right: 10px;
 }
+.ser1:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
 .ser1{
     width: 25%;
     text-align: center;
@@ -331,6 +336,7 @@ hr{
     background: #fff;
     height:300px;
     border-radius: 5px;
+   
 }
 .ser1 .ser-ico{
     height: 80px;
@@ -420,4 +426,43 @@ hr{
 
     background-color: #F6F8FB;
     height: 700px;
+}
+.team-img{
+    display: flex;
+    padding-top: 24px;
+}
+.timg{
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.timg img{
+    width: 100%;
+}
+.txt-sc{
+    position: absolute;
+    bottom: 3px;
+    right: 73px;
+    text-align: center;
+    opacity: 0;
+}
+.team-img a :hover{
+    opacity: 1;
+}
+.txt-sc h4{
+    color: #fff;
+}
+.txt-sc p{
+    
+    color: #fff;
+    font-style: italic;
+
+}
+.team-ico a{
+    padding: 5px;
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 21px;
+
 }
