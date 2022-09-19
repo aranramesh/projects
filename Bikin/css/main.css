@@ -558,6 +558,14 @@ hr{
     width: 95px;
     height: 40px;
 }
+.price-1 button:hover{
+    background-color: #0A22F6;
+    color: #fff;
+}
+.price-2 button:hover{
+    background-color: #fff;
+    color: #0A22F6;
+}
 .price-2 button {
     width: 95px;
     height: 40px;
